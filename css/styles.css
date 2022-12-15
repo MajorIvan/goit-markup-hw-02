@@ -1,7 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .header {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .header-logo {
@@ -9,8 +16,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -24,8 +29,27 @@ body {
 .header-item {
 }
 .header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.header-mail {
+.header-contacts {
+    font-weight: 400;
+    color: #434455;
 }
-.header-tel {
+.section-1 {
+    background-color: #2E2F42;
+}
+h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+h2
+h3 {
+    color: #2E2F42;
 }
