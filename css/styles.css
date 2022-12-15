@@ -1,9 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+}
+.list {
+    list-style: none;
+}
+.line {
+    text-decoration: none;
 }
 .header {
     font-size: 16px;
@@ -33,6 +38,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.header-link:focus,
+.header-link:hover {
+    color: #4D5AE5;
 }
 .header-contacts {
     font-weight: 400;
