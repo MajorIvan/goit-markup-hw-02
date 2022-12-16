@@ -94,6 +94,7 @@ p {
 }
 /* -------------------- HERO -------------------- */
 .order-btn {
+    cursor: pointer;
     /* display: flex;
     flex-direction: row;
     align-items: flex-start; */
@@ -132,6 +133,7 @@ p {
 }
 /* -------------------- PORTFOLIO -------------------- */
 .filter-btn {
+    cursor: pointer;
     /* box-sizing: border-box;
     display: flex;
     flex-direction: row;
