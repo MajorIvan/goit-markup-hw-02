@@ -22,11 +22,23 @@ h3 {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+/* -------------------- AUXILIARY -------------------- */
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
+}
+
+/* -------------------- HEADER -------------------- */
+.header {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-logo {
+    color: #2E2F42;
 }
 .text-logo {
     font-family: 'Raleway';
@@ -36,22 +48,6 @@ h3 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-}
-.header-logo {
-    color: #2E2F42;
-}
-.footer-logo {
-    color: #F4F4FD;
-}
-/* -------------------- HEADER -------------------- */
-.header {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.header-logo-aux {
-    color: #2E2F42;
 }
 .header-nav {
 }
@@ -167,6 +163,9 @@ h3 {
 /* -------------------- FOOTER -------------------- */
 .footer {
     background: #2E2F42;
+}
+.footer-logo {
+    color: #F4F4FD;
 }
 .footer-txt {
     font-size: 16px;
