@@ -7,33 +7,26 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     font-size: 16px;
-    letter-spacing: 0.02em;
 }
-h1 {
-    font-weight: 600;
-    width: 495px;
-    height: 120px;
-    font-size: 56px;
-    line-height: calc(60/56);
-    text-align: center;
-    color: #FFFFFF;
-}
-h2 {
+.title {
     font-weight: 600;
     font-size: 36px;
     line-height: calc(40/36);
     text-align: center;
     text-transform: capitalize;
     color: var(--dark);
+    letter-spacing: 0.02em;
 }
-h3 {
+.sub-title {
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
     color: var(--dark);
+    letter-spacing: 0.02em;
 }
-p {
-    line-height: 1.5;
+.text {
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
 }
 /* -------------------- AUXILIARY -------------------- */
 .visually-hidden {
@@ -102,7 +95,13 @@ p {
     background-color: var(--dark);
 }
 .hero-title {
+    font-weight: 600;
+    width: 495px;
+    height: 120px;
+    font-size: 56px;
+    line-height: calc(60/56);
     text-align: center;
+    color: #FFFFFF;
 }
 .order-btn {
     cursor: pointer;
@@ -168,7 +167,8 @@ p {
     border-radius: 4px;
     color: #FFFFFF;
 }
-.projects {
+.filter-btn:active {
+    background: #404BBF;
 }
 .project-card {
     box-sizing: border-box;
@@ -187,8 +187,5 @@ p {
     color: #F4F4FD;
 }
 .footer-txt {
-    font-size: 16px;
-    line-height: calc(24/16);
-    letter-spacing: 0.02em;
     color: #E7E9FC;
 }
